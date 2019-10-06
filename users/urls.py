@@ -1,9 +1,9 @@
 from django.conf.urls import url
 from . import views
-from django.urls import path
+from django.urls import re_path
 
 
 urlpatterns = [
-    url('dupa', views.index, name='index'),
-    path('register/', views.register_view, name='register_view', )
+    re_path('index', views.index, name='index'),
+    re_path('register/', views.register_view, name='register_view', )
 ]
