@@ -25,7 +25,7 @@ SECRET_KEY = 'n^nwvkdd6*nu^t=ustt#_ib0m-3+qy+1g=of*z$5s%lq4nl+)x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://dominikother.azurewebsites.net/']
+ALLOWED_HOSTS = ['https://dominikother.azurewebsites.net']
 
 
 # Application definition
